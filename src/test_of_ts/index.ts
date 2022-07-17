@@ -11,6 +11,6 @@ function optionalArgs(n1:number, n2?:number):string{
         return n1 + "";
     }
 }
-
+//冒号前加问号表示可选参数
 
 console.log(optionalArgs(num1, 90));
